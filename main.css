@@ -1,0 +1,100 @@
+.pic {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #cfe2ff;
+
+
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+
+}
+
+.pic img {
+    width: 100vw;
+}
+
+.santorini {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.santorini h1 {
+    font-size: 200%;
+}
+
+.text {
+    padding-top: 5%;
+}
+
+.text p {
+    padding-bottom: 5%;
+    font-family: "JetBrains Mono Medium";
+    list-style-type: none;
+    font-size: 130%;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+.text h2 {
+    font-family: "JetBrains Mono Medium";
+    list-style-type: none;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bolder;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.text img {
+    padding-top: 2%;
+    padding-bottom:2%;
+    width: 50vw;
+    margin: 0 20px 10px 0;
+    float: left;
+
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
+
+
+    background: #cff4fc;
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+
+}
+
+
+.footer {
+    opacity: 90%;
+    background: #cff4fc;
+    background: -moz-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -ms-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: -o-linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+    background: linear-gradient(#86b7fe 0%, #cfe2ff 90%);
+}
+
+.footer h1, .santorini {
+    text-align: center;
+    font-family: "Courier New";
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+
+
